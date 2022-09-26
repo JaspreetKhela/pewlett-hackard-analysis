@@ -52,7 +52,7 @@ CREATE TABLE titles (
   	FOREIGN KEY (emp_no) REFERENCES employees (emp_no)
 ); 
 
--- Deliverable 1
+-- Deliverable 1: The Number of Retiring Employees by Title
 
 SELECT e.emp_no,
     e.first_name,
@@ -88,7 +88,7 @@ ORDER BY title_count DESC;
 -- Display the results
 SELECT * FROM retiring_titles;
 
--- Deliverable 2
+-- Deliverable 2: The Employees Eligible for the Mentorship Program
 
 SELECT DISTINCT ON (e.emp_no) e.emp_no,
                     e.first_name,
