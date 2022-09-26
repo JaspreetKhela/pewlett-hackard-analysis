@@ -38,9 +38,17 @@ The following points were observed from the analysis:
 
 ## Summary
 
+Recall that we wanted to determine the number of retiring employees per title and to identify employees who are eligible to participate in a mentorship program at Pewlett Hackard.
+
 ### Job Vacancies Versus Mentees
 In summary, we can observe that:
 * There will be 72,458 job vacancies in the near future at Pewlett Hackard and
 * There are 1,549 current employees that qualify for mentorship (to fill in the aforementioned job vacancies).
+
+These insights help us to answer the following questions:
+* How many roles will need to be filled as the "silver tsunami" begins to make an impact?
+  * 72,458 job vacancies will be need to be filled.
+* Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
+  * There are enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees since 72,458 upcoming job vacancies is more than the 1,549 current employees that qualify for mentorship to fill those job vacancies.
 
 Consequently, a new strategy is or new criteria are required to find more current employees to fill the job vacancies. Additionally, Table 2 and Table 3 illustrate that only those mentorship-qualified employees who are about to reach or are at the senior level within the organization are eligible to fill those job vacancies, so there are fewer than 1,549 employees who are actually ready to fill those job vacancies.
