@@ -97,7 +97,7 @@ SELECT DISTINCT ON (e.emp_no) e.emp_no,
                     d.from_date,
                     d.to_date,
                     t.title
-	INTO mentorship_eligibilty
+	INTO mentorship_eligibility
     FROM employees as e
     INNER JOIN dept_emp as d
     ON (e.emp_no = d.emp_no)
@@ -108,4 +108,4 @@ SELECT DISTINCT ON (e.emp_no) e.emp_no,
 	ORDER BY emp_no;
 	
 -- Display the results
-SELECT * FROM mentorship_eligibilty;
+SELECT * FROM mentorship_eligibility;
